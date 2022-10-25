@@ -8,6 +8,10 @@ configure do
   set :session_secret, "3619d4360dc051e2b3e889b4e874854348810d8dca8efa4e8aa2657296948e6c" 
 end
 
+configure do
+  set :erb, :escape_html => true
+end
+
 before do
   session[:lists] ||= []
 end
