@@ -28,6 +28,7 @@ GEM
 
 PLATFORMS
   bundle lock --add-platform x86_64-linux
+  bundle lock --add-platform ruby
   x86_64-darwin-21
 
 DEPENDENCIES
